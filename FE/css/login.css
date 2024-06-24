@@ -1,0 +1,63 @@
+h1{
+    margin: 20px;
+}
+.login-wrap{
+    display: flex;
+    
+}
+.login-1{
+    flex: 0.5;
+}
+.login-2{
+    flex: 1.5;
+    
+}
+.login-right{
+    border: 0.2px solid rgb(219, 219, 219);
+    padding: 20px;
+    border-radius: 3px;
+}
+.login-input{
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    border-radius: 9px;
+    border: 0.2px solid rgb(219, 219, 219);
+    font-size: 15px;
+    padding: 5px;
+    outline: none;
+    transition: border-color 0.6s ease-in-out;
+}
+.login-input:focus{
+    border-color: rgb(73, 71, 71);
+}
+.login-form-label {
+    font-size: 20px;
+    margin: 10px 0 4px 0;
+    display: block;
+}
+.login-form-button{
+    width: 100%;
+    margin: 10px 0;
+    background-color: rgb(0, 149, 246);
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 9px;
+    border: none;
+}
+.login-forgotPassword--1{
+    font-size: 15px;
+    text-align: center;
+    display: inline;
+}
+.login-forgotPassword--2{
+    color: #3498db; /* Màu chữ mặc định */
+    transition: color 0.3s ease-in-out; /* Thêm transition cho màu chữ */
+    display: inline;
+    font-size: 17px;
+    font-weight: 800;
+}
+.login-forgotPassword--2:hover{
+    color: #050a31;
+}

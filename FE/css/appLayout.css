@@ -1,0 +1,30 @@
+:root{
+    --layout-navbar: 230px;
+    --layout-right: 400px;
+}
+.layout-wrap{
+    /* display: flex;
+    width: 100%;
+    margin: 0; */
+}
+
+.layout-navbar {
+    /* border-right: 0.2px solid rgb(219, 219, 219); */
+    /* width: var(--layout-navbar); */
+    /* height: 100vh; */
+    /* position: fixed; */
+}
+.layout-post {
+    /* flex-grow: 1; */
+    /* height: 200vh; */
+    /* margin-left: var(--layout-navbar); */
+    /* margin-right: var(--layout-right); */
+}
+.layout-right {
+    width: var(--layout-right);
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+

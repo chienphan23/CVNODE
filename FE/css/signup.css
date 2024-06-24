@@ -1,0 +1,48 @@
+.signup-form-input {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 9px;
+    border: 0.2px solid rgb(219, 219, 219);
+    font-size: 15px;
+    padding: 5px;
+    outline: none;
+    transition: border-color 0.6s ease-in-out;
+}
+.signup-form-input:focus{
+    border-color: rgb(73, 71, 71);
+}
+.signup-form-label{
+    font-size: 20px;
+    margin: 15px 0 4px 0;
+    display: block;
+}
+.signup-form-button{
+    width: 100%;
+    margin: 15px 0;
+    background-color: rgb(0, 149, 246);
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 9px;
+    border: none;
+}
+.wrap-form{
+    border: 0.2px solid rgb(219, 219, 219);
+    border-radius: 3px;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.login-text--1{
+    font-size: 15px;
+    text-align: center;
+    display: inline;
+}
+.login-text--2{
+    color: #3498db; /* Màu chữ mặc định */
+    transition: color 0.3s ease-in-out; /* Thêm transition cho màu chữ */
+    display: inline;
+}
+.login-text--2:hover{
+    color: #050a31;
+}
